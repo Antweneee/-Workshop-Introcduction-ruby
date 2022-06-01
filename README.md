@@ -99,7 +99,7 @@ number ? : 2000
 0002
 ```
 
-## API
+## Step 04 API
 
 In this part you will see how to do an http request in ruby en treat it in ruby.
 
