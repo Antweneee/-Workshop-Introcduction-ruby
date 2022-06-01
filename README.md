@@ -99,6 +99,35 @@ number ? : 2000
 0002
 ```
 
+## API
+
+In this part you will see how to do an http request in ruby en treat it in ruby.
+
+You will do a GET request
+
+You will request the following API: `https://api.nasa.gov/planetary/apod` on the[NASA api](https://api.nasa.gov/).
+
+>Use api_key=DEMO_KEY to o the call
+
+You have to do a script name `call_api` who will:
+
+1) read the date on the standart output
+2) Get the responce of the API with this format (YYY-MM-DD)
+3) Download the image and save it in a file named `result;png`
+4) Print the `author`, `the title`, `the description` and the image;
+
+
+**To print the image you will have to lauch the command with the shell command[`viu`](https://github.com/atanunq/viu) from your script**
+
+> You will need to use [kitty term] to print the image in HD
+
+You should have the following output:
+
+```shell
+$> ./call_api
+Enter a date (YYYY-MM-DD):
+2021-
+
 This script should only work for numbers !
 
 
